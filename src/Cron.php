@@ -113,6 +113,6 @@ class Cron
      */
     private function exec($name)
     {
-
+        (new $name)->run();
     }
 }

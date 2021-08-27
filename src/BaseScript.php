@@ -45,6 +45,9 @@ abstract class BaseScript
 
     abstract protected function action();
 
+    /**
+     * @throws \Exception
+     */
     public function run()
     {
         $prepare = $this->beforeAction();
